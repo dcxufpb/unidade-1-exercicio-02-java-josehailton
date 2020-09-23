@@ -27,20 +27,21 @@ public class CupomFiscal {
         	System.out.println(imprimirCupom);
     	}
 	
-	public void exercicio02_tudoVazio() {
-        System.out.println(
-                "\n" +
-                ", " + "\n" +
-                " -  - " + "\n" +
-                "CEP: Tel " + "\n" +
-                "\n" +
-                "CNPJ: " + "\n" +
-                "IE: "
-        );
-    }
+	private static String pular_linha = System.lineSeparator();
+    
+    	public void exercicio02_tudoVazio() {
+        	System.out.println(
+                	pular_linha +
+                	", " + pular_linha +
+                	" -  - " + pular_linha +
+                	"CEP: Tel " + pular_linha +
+                	pular_linha +
+                	"CNPJ: " + pular_linha +
+                	"IE: "
+        	);
+    	}
 	
 	public static void main(final String[] args) {
-		//Implemente aqui
 		exercicio01();
 	}
 	
