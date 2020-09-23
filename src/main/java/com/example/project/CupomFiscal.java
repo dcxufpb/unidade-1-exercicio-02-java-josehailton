@@ -27,6 +27,18 @@ public class CupomFiscal {
         	System.out.println(imprimirCupom);
     	}
 	
+	public void exercicio02_tudoVazio() {
+        System.out.println(
+                "\n" +
+                ", " + "\n" +
+                " -  - " + "\n" +
+                "CEP: Tel " + "\n" +
+                "\n" +
+                "CNPJ: " + "\n" +
+                "IE: "
+        );
+    }
+	
 	public static void main(final String[] args) {
 		//Implemente aqui
 		exercicio01();
