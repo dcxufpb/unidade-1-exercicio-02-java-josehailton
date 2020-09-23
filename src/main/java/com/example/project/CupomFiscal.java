@@ -15,9 +15,8 @@ public class CupomFiscal {
 	public static String CNPJ = "42.591.651/0797-34";
 	public static String INSCRICAO_ESTADUAL = "244.898.500.113";
 	
-	public static void main(final String[] args) {
-		//Implemente aqui
-		String imprimirCupom = NOME_LOJA + "\n";
+	public static void exercicio01() {
+        	String imprimirCupom = NOME_LOJA + "\n";
         	imprimirCupom += LOGRADOURO + ", " + NUMERO + " " + COMPLEMENTO + "\n";
         	imprimirCupom += BAIRRO + " - " +MUNICIPIO+ " - " +ESTADO + "\n";
         	imprimirCupom += "CEP: " + CEP + "Tel " + TELEFONE + "\n";
@@ -26,15 +25,11 @@ public class CupomFiscal {
         	imprimirCupom += "IE: " + INSCRICAO_ESTADUAL + "\n";
         
         	System.out.println(imprimirCupom);
+    	}
+	
+	public static void main(final String[] args) {
+		//Implemente aqui
+		exercicio01();
 	}
 	
-	private static void imprime_dados_loja(){
-        	System.out.printf("%s\n", NOME_LOJA);
-        	System.out.printf("%s, %d %s\n", LOGRADOURO, NUMERO, COMPLEMENTO);
-        	System.out.printf("%s - %s - %s\n", BAIRRO, MUNICIPIO, ESTADO);
-        	System.out.printf("CEP:%s Tel %s\n", CEP, TELEFONE);
-        	System.out.println(OBSERVACAO);
-        	System.out.printf("CNPJ: %s\n", CNPJ);
-        	System.out.printf("IE: %s\n", INSCRICAO_ESTADUAL);       
-   	}
 }
