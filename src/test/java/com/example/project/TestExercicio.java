@@ -49,24 +49,24 @@ public class TestExercicio {
 	public void exercicio02_Customizado() {
 		//Defina seus próprios valores para as variáveis a seguir 
 		CupomFiscal.NOME_LOJA = "Pibit.inc";
-		CupomFiscal.LOGRADOURO = "Rua José Pedro";
+		CupomFiscal.LOGRADOURO = "Rua Jose Pedro";
 		CupomFiscal.NUMERO = 110;
 		CupomFiscal.COMPLEMENTO = "Casa";
 		CupomFiscal.BAIRRO = "Virgilio Ribeiro";
-		CupomFiscal.MUNICIPIO = "Jacaraú";
+		CupomFiscal.MUNICIPIO = "Jacarau";
 		CupomFiscal.ESTADO = "PB";
 		CupomFiscal.CEP = "58278-000";
-		CupomFiscal.TELEFONE = "(83) 9 8603-6511";
-		CupomFiscal.OBSERVACAO = "Próximo a Pizzaria";
+		CupomFiscal.TELEFONE = "(83) 8603-6511";
+		CupomFiscal.OBSERVACAO = "Proximo a Pizzaria";
 		CupomFiscal.CNPJ = "99.779.325/0001-81";
 		CupomFiscal.INSCRICAO_ESTADUAL = "324.632.739.801";
 		
 		//E atualize o texto esperado abaixo
 		rodarTestarOutput("Pibit.inc" + BREAK +
-				 		"Rua José Pedro, 110 Casa" + BREAK +
-						"Virgilio Ribeiro - Jacaraú - PB" + BREAK +
-						"CEP:58278-000 Tel (83) 9 8603-6511" + BREAK +
-						"Próximo a Pizzaria" + BREAK +
+				 		"Rua Jose Pedro, 110 Casa" + BREAK +
+						"Virgilio Ribeiro - Jacarau - PB" + BREAK +
+						"CEP:58278-000 Tel (83) 8603-6511" + BREAK +
+						"Proximo a Pizzaria" + BREAK +
 						"CNPJ: 99.779.325/0001-81" + BREAK +
 						"IE: 324.632.739.801" + BREAK);
 	}
