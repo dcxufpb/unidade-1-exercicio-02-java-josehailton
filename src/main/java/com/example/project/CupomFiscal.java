@@ -17,7 +17,15 @@ public class CupomFiscal {
 	
 	public static void main(final String[] args) {
 		//Implemente aqui
-		imprime_dados_loja();
+		String imprimirCupom = NOME_LOJA + "\n";
+        	imprimirCupom += LOGRADOURO + ", " + NUMERO + " " + COMPLEMENTO + "\n";
+        	imprimirCupom += BAIRRO + " - " +MUNICIPIO+ " - " +ESTADO + "\n";
+        	imprimirCupom += "CEP: " + CEP + "Tel " + TELEFONE + "\n";
+        	imprimirCupom += OBSERVACAO + "\n";
+        	imprimirCupom += "CNPJ: " + CNPJ + "\n";
+        	imprimirCupom += "IE: " + INSCRICAO_ESTADUAL + "\n";
+        
+        	System.out.println(imprimirCupom);
 	}
 	
 	private static void imprime_dados_loja(){
