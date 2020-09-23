@@ -22,7 +22,7 @@ public class CupomFiscal {
         	imprimirCupom += "CEP: " + CEP + "Tel " + TELEFONE + "\n";
         	imprimirCupom += OBSERVACAO + "\n";
         	imprimirCupom += "CNPJ: " + CNPJ + "\n";
-        	imprimirCupom += "IE: " + INSCRICAO_ESTADUAL + "\n";
+        	imprimirCupom += "IE: " + INSCRICAO_ESTADUAL;
         
         	System.out.println(imprimirCupom);
     	}
